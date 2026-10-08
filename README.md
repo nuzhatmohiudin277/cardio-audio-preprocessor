@@ -3,7 +3,7 @@
 An advanced data engineering pipeline designed specifically for phonocardiogram (PCG) heart sound analysis and multi-modal AI triage models. 
 
 ## Architecture & Features
-```mermaid
+mermaid
 graph TD
     A[Raw PCG Audio .wav] -->|Librosa Load| B(Acoustic Signal)
     B --> C{Butterworth Bandpass}
